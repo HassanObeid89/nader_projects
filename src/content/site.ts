@@ -18,11 +18,11 @@ export const site = {
   socials: [] as { label: string; href: string }[],
   about: {
     headline: "Designing rooms people want to stay in",
-    bio: `Nader Obeid is an interior designer and architectural visualizer with a focus on residential and commercial spaces that feel both intentional and livable. His work spans contemporary interiors, traditional Lebanese-inspired kitchens and salons, urban modern apartments, and technical planning for commercial fit-outs.
+    bio: `I'm an interior designer and architectural visualizer with a focus on residential and commercial spaces that feel both intentional and livable. My work spans contemporary interiors, traditional Lebanese-inspired kitchens and salons, urban modern apartments, and technical planning for commercial fit-outs.
 
-Working primarily in AutoCAD and 3D Max, Nader moves from measured drawings and sections to photoreal visualizations — so clients can see material, light, and proportion before construction begins. Projects range from villa renovations and kitchen redesigns to industrial copy-center planning and Scandinavian retail interiors.
+Working primarily in AutoCAD and 3D Max, I move from measured drawings and sections to photoreal visualizations — so clients can see material, light, and proportion before construction begins. My projects range from villa renovations and kitchen redesigns to industrial copy-center planning and Scandinavian retail interiors.
 
-Whether the brief calls for warm traditional detailing or clean contemporary lines, the approach stays the same: clear spatial logic, careful finishes, and visuals that communicate the finished space with confidence.`,
+Whether the brief calls for warm traditional detailing or clean contemporary lines, my approach stays the same: clear spatial logic, careful finishes, and visuals that communicate the finished space with confidence.`,
     approach: [
       {
         title: "Listen & measure",
