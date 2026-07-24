@@ -1,5 +1,7 @@
 import { copyCenter } from "./copy-center";
+import { gazeboZanzibar } from "./gazebo-zanzibar";
 import { livsmedel } from "./livsmedel";
+import { mkwawaConstruction } from "./mkwawa-construction";
 import { obeid } from "./obeid";
 import { sannan } from "./sannan";
 import { tanzania } from "./tanzania";
@@ -15,6 +17,8 @@ import { villa } from "./villa";
  * 3. Import and append it to `projects` below
  */
 const projects: Project[] = [
+  mkwawaConstruction,
+  gazeboZanzibar,
   tanzania,
   sannan,
   obeid,

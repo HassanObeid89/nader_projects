@@ -33,13 +33,13 @@ export default function ContactPage() {
           </div>
         </div>
 
-        <dl className="mt-12 grid gap-8 border-t border-line pt-10 sm:grid-cols-3 sm:gap-6">
+        <dl className="mt-12 space-y-8 border-t border-line pt-10">
           <div>
             <dt className="eyebrow">Email</dt>
             <dd className="mt-3">
               <a
                 href={`mailto:${site.email}`}
-                className="font-display text-xl text-ink transition hover:text-sage-deep sm:text-2xl"
+                className="break-all font-display text-2xl text-ink transition hover:text-sage-deep sm:text-3xl"
               >
                 {site.email}
               </a>
@@ -50,7 +50,7 @@ export default function ContactPage() {
             <dd className="mt-3">
               <a
                 href={`tel:${site.phone.replace(/\s/g, "")}`}
-                className="font-display text-xl text-ink transition hover:text-sage-deep sm:text-2xl"
+                className="font-display text-2xl text-ink transition hover:text-sage-deep sm:text-3xl"
               >
                 {site.phone}
               </a>
@@ -58,7 +58,7 @@ export default function ContactPage() {
           </div>
           <div>
             <dt className="eyebrow">Location</dt>
-            <dd className="mt-3 font-display text-xl text-ink sm:text-2xl">
+            <dd className="mt-3 font-display text-2xl text-ink sm:text-3xl">
               {site.location}
             </dd>
           </div>
