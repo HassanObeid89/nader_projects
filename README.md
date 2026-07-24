@@ -26,6 +26,27 @@ Open [http://localhost:3000](http://localhost:3000).
 
 Home shows up to 3 projects with `featured: true`. `/projects` lists the full archive; `/projects/{slug}` is the detail page (via `generateStaticParams`).
 
-## Editing brand & contact
+## Deploy
 
-Update `src/content/site.ts` — name, bio, email, phone, and nav live there.
+```bash
+npm run deploy
+```
+
+Publishes the static `out/` build to Firebase Hosting (`nader-obeid-portfolio`).
+
+### Auto-deploy on merge to `main`
+
+A GitHub Action runs on every push to `main` (see `.github/workflows/deploy-firebase.yml`).
+
+One-time setup:
+
+1. Create a CI token locally:
+   ```bash
+   npx firebase-tools login:ci
+   ```
+2. In GitHub → **Settings → Secrets and variables → Actions**, add secret:
+   - Name: `FIREBASE_TOKEN`
+   - Value: the token from step 1
+
+After that, merging a PR into `main` builds and deploys automatically to https://nader-obeid-portfolio.web.app
+
