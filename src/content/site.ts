@@ -4,7 +4,7 @@ export const site = {
   tagline: "Spaces shaped with clarity, craft, and quiet luxury.",
   description:
     "Portfolio of Nader Obeid — interior designer and architectural visualizer creating contemporary and traditional living spaces through AutoCAD and 3D Max.",
-  url: "https://naderobeidprojects.web.app",
+  url: "https://nader-obeid-portfolio.web.app",
   /** Update these when you have the real contact details */
   email: "hello@naderobeid.com",
   phone: "+46 XXX XXX XXX",
