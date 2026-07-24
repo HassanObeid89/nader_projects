@@ -65,7 +65,9 @@ export default async function ProjectPage({ params }: Props) {
             <p className="mt-6 text-sm text-ink-soft/80">{project.summary}</p>
           </header>
 
-          <ProjectGallery images={project.images} title={project.title} />
+          <div className="min-w-0 max-w-full">
+            <ProjectGallery images={project.images} title={project.title} />
+          </div>
         </div>
 
         <nav className="mt-14 flex items-center justify-between border-t border-line pt-6 text-sm">

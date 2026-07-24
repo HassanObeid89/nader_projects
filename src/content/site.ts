@@ -5,9 +5,9 @@ export const site = {
   description:
     "Portfolio of Nader Obeid — interior designer and architectural visualizer creating contemporary and traditional living spaces through AutoCAD and 3D Max.",
   url: "https://nader-obeid-portfolio.web.app",
-  /** Update these when you have the real contact details */
-  email: "hello@naderobeid.com",
-  phone: "+46 XXX XXX XXX",
+  /** Contact details */
+  email: "nader.obeid.11@hotmail.com",
+  phone: "+46 70 718 98 83",
   location: "Sweden",
   portrait: "/about/nader-obeid.jpg",
   nav: [

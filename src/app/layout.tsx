@@ -40,7 +40,7 @@ export default function RootLayout({
     <html lang="en" className={`${display.variable} ${sans.variable} h-full`}>
       <body className="flex min-h-full flex-col font-sans antialiased">
         <SiteHeader />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1 overflow-x-clip">{children}</main>
         <SiteFooter />
       </body>
     </html>
