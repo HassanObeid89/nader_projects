@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" fill="#141210"/>
+  <defs>
+    <clipPath id="fav-weave">
+      <rect x="0" y="0" width="10" height="32"/>
+      <rect x="22" y="0" width="10" height="32"/>
+    </clipPath>
+  </defs>
+  <!-- Sage outlined O -->
+  <circle cx="17.5" cy="16" r="9" stroke="#6e7f62" stroke-width="1.6" fill="none"/>
+  <!-- Paper N -->
+  <path d="M7.5 23.5V8.5h1.9L15.8 19V8.5H17.7v15h-1.9L9.4 13v10.5H7.5Z" fill="#f3efe8"/>
+  <!-- Sage O weave over N -->
+  <g clip-path="url(#fav-weave)">
+    <circle cx="17.5" cy="16" r="9" stroke="#6e7f62" stroke-width="1.6" fill="none"/>
+  </g>
+</svg>

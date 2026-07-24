@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Logo } from "@/components/Logo";
 import { site } from "@/content/site";
 
 export function SiteHeader() {
@@ -8,9 +9,10 @@ export function SiteHeader() {
         <div className="flex h-14 items-center justify-between border border-line/80 bg-paper/85 px-4 shadow-[0_8px_30px_rgba(20,18,16,0.06)] backdrop-blur-xl sm:px-5">
           <Link
             href="/"
-            className="font-display text-xl tracking-tight text-ink transition-colors hover:text-sage-deep sm:text-2xl"
+            aria-label={site.name}
+            className="group inline-flex h-12 w-12 shrink-0 items-center justify-center sm:h-12 sm:w-12"
           >
-            {site.name}
+            <Logo className="h-11 w-11 sm:h-12 sm:w-12" variant="light" />
           </Link>
           <nav className="flex items-center gap-5 text-xs tracking-[0.12em] uppercase text-ink-soft sm:gap-7">
             {site.nav.map((item) => (

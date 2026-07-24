@@ -10,6 +10,7 @@ export const site = {
   phone: "+46 70 718 98 83",
   location: "Sweden",
   portrait: "/about/nader-obeid.jpg",
+  logo: "/brand/logo.svg",
   nav: [
     { label: "Work", href: "/projects" },
     { label: "About", href: "/about" },

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Nader Obeid</title>
+  <defs>
+    <clipPath id="no-weave">
+      <rect x="0" y="0" width="31" height="100"/>
+      <rect x="69" y="0" width="31" height="100"/>
+    </clipPath>
+  </defs>
+  <text x="54" y="51" text-anchor="middle" dominant-baseline="central" fill="none" stroke="#6e7f62" stroke-width="2.1" font-family="Fraunces, Georgia, serif" font-weight="300" font-size="76">O</text>
+  <text x="41" y="51" text-anchor="middle" dominant-baseline="central" fill="#141210" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="56">N</text>
+  <g clip-path="url(#no-weave)">
+    <text x="54" y="51" text-anchor="middle" dominant-baseline="central" fill="none" stroke="#6e7f62" stroke-width="2.1" font-family="Fraunces, Georgia, serif" font-weight="300" font-size="76">O</text>
+  </g>
+</svg>
